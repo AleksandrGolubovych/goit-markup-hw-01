@@ -1,10 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Web Studio</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <a class="webstudio" target="_blank" rel="noopener noreferrer" href="https://www.google.com/"
+        >WebStudio</a
+      >
+      <nav class="header-nav">
+        <ul class="header-list">
+          <!-- Сдесь не разобрался куда указывать -->
+          <li class="header-list"><a class="header-link" href="#team">Студия</a></li>
+          <li class="header-list"><a class="header-link" href="#portfolio">Портфолио</a></li>
+          <li class="header-list"><a class="header-link" href="#address">Контакты</a></li>
+        </ul>
+      </nav>
+      <ul>
+        <li>
+          <a class="headder-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="headder-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
+    </header>
+    <!--Main Secctin  -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="hero-button">Заказать услугу</button>
+      </section>
+      <!-- specificity Section -->
+      <section>
+        <!-- Логический подзаголовок -->
+        <h2 hidden class="specificity">Особенности</h2>
+
+        <ul class="specificity-list">
+          <li class="specificity-item">
+            <h3 class="specificity-name">Внимание к деталям</h3>
+            <p class="specificity-text">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
+          </li>
+          <li class="specificity-item">
+            <h3 class="specificity-name">Пунктуальность</h3>
+            <p class="specificity-text">
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
+          </li>
+          <li class="specificity-item">
+            <h3 class="specificity-name">Планирование</h3>
+            <p class="specificity-text">
+              Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
+          </li>
+          <li class="specificity-item">
+            <h3 class="specificity-name">Современные технологии</h3>
+            <p class="specificity-text">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- Portfolio Section -->
+      <section>
+        <h2 id="portfolio">Чем мы занимаемся</h2>
+        <ul>
+          <li>
+            <img
+              src="./IMAGES/images-portfolio/img-4.jpg"
+              alt="фото портфолио-1"
+              width="370"
+              height="295"
+            />
+          </li>
+          <li>
+            <img
+              src="./IMAGES/images-portfolio/img-5.jpg"
+              alt="фото портфолио-2"
+              width="370"
+              height="295"
+            />
+          </li>
+          <li>
+            <img
+              src="./IMAGES/images-portfolio/img-6.jpg"
+              alt="фото портфолио-3"
+              width="370"
+              height="295"
+            />
+          </li>
+        </ul>
+      </section>
+      <!-- Team Section -->
+      <section class="team" id="team">
+        <h2 class="team-title">Наша команда</h2>
+        <ul class="team-list">
+          <li class="teem-item">
+            <img
+              class="team-img"
+              src="./IMAGES/images-team/img-1.jpg"
+              alt="Игорь Демьяненко фото"
+              width="270"
+              height="260"
+            />
+            <h3 class="specialist-name">Игорь Демьяненко</h3>
+            <p class="specialist-speciality" lang="en">Product Designer</p>
+          </li>
+
+          <li class="teem-item">
+            <img
+              class="team-img"
+              src="./IMAGES/images-team/img-2.jpg"
+              alt="Ольга Репина фото"
+              width="270"
+              height="260"
+            />
+            <h3 class="specialist-name">Ольга Репина</h3>
+            <p class="specialist-speciality" lang="en">Frontend Developer</p>
+          </li>
+
+          <li class="teem-item">
+            <img
+              class="team-img"
+              src="./IMAGES/images-team/img-3.jpg"
+              alt="Николай Тарасов фото"
+              width="270"
+              height="260"
+            />
+            <h3 class="specialist-name">Николай Тарасов</h3>
+            <p class="specialist-speciality" lang="en">Marketing</p>
+          </li>
+
+          <li class="teem-item">
+            <img
+              class="team-img"
+              src="./IMAGES/images-team/img-4.jpg"
+              alt="Михаил Ермаков фото"
+              width="270"
+              height="260"
+            />
+            <h3 class="specialist-name">Михаил Ермаков</h3>
+            <p class="specialist-speciality" lang="en">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!--Footer Section  -->
+    <footer class="footer">
+      <a class="webstudio" target="_blank" rel="noopener noreferrer" href="https://www.google.com/"
+        >WebStudio</a
+      >
+      <address id="address">
+        <ul>
+          <li class="footer-adress">г. Киев, пр-т Леси Украинки, 26</li>
+          <li class="footer-mail"><a href="mailto:https://www.google.com/">info@example.com</a></li>
+          <li class="footer-tel"><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>
